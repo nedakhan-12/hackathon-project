@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>HerShield | Safety Plan</title>
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Safety Plan CSS -->
+    <link rel="stylesheet" href="safty.css">
+</head>
+
+<body>
+
+    <!-- ================================
+         NAVBAR
+    ================================= -->
+
+    <nav class="navbar">
+
+        <div class="nav-logo">
+            <a href="index.html">HerShield</a>
+        </div>
+
+        <ul class="nav-links">
+
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+
+            <li>
+                <a href="contact.html">Trusted Contact</a>
+            </li>
+
+            <li>
+                <a href="safty.html">Safety Plan</a>
+            </li>
+
+            <li>
+                <a href="emergency.html">Emergency SOS</a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+
+    <!-- ================================
+         SAFETY PLAN SECTION
+    ================================= -->
+
+    <main>
+
+        <section class="page-section">
+
+            <h1>Personal Safety Plan</h1>
+
+            <p>
+                Create a simple safety plan to help you stay
+                prepared in an unsafe situation.
+            </p>
+
+
+            <div class="safety-card">
+
+                <form id="safetyForm">
+
+                    <!-- Safe Place -->
+
+                    <div class="form-group">
+
+                        <label for="safePlace">
+                            My Safe Place
+                        </label>
+
+                        <input
+                            type="text"
+                            id="safePlace"
+                            name="safePlace"
+                            placeholder="Enter a safe place"
+                            required
+                        >
+
+                    </div>
+
+
+                    <!-- Emergency Person -->
+
+                    <div class="form-group">
+
+                        <label for="emergencyPerson">
+                            Emergency Person
+                        </label>
+
+                        <input
+                            type="text"
+                            id="emergencyPerson"
+                            name="emergencyPerson"
+                            placeholder="Enter emergency contact"
+                            required
+                        >
+
+                    </div>
+
+
+                    <!-- Safety Notes -->
+
+                    <div class="form-group">
+
+                        <label for="planNotes">
+                            Safety Notes
+                        </label>
+
+                        <textarea
+                            id="planNotes"
+                            name="planNotes"
+                            rows="6"
+                            placeholder="Write your safety plan..."
+                        ></textarea>
+
+                    </div>
+
+
+                    <!-- Save Button -->
+
+                    <button type="submit">
+                        Save Safety Plan
+                    </button>
+
+                </form>
+
+
+                <!-- Message -->
+
+                <div id="safetyMessage"></div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================================
+         FOOTER
+    ================================= -->
+
+    <footer>
+
+        <p>
+            &copy; 2026 HerShield. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+
+    <script src="safty.js"></script>
+
+</body>
+
+</html>
+```

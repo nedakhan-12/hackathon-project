@@ -1,0 +1,352 @@
+
+/* =================================
+   HER SHIELD - GLOBAL CSS
+================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #F8FAFC;
+    color: #1E293B;
+    line-height: 1.6;
+}
+
+
+/* =================================
+   NAVBAR
+================================= */
+
+.navbar {
+    background-color: #0F172A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+
+/* Logo */
+
+.nav-logo a {
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+/* Menu */
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Menu Links */
+
+.nav-links a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+
+/* Hover */
+
+.nav-links a:hover {
+    color: #F472B6;
+}
+
+
+/* =================================
+   HERO SECTION
+================================= */
+
+.hero {
+    min-height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 70px 8%;
+
+    background:
+        linear-gradient(
+            135deg,
+            #FDF2F8,
+            #E0E7FF
+        );
+}
+
+.hero-content {
+    max-width: 800px;
+}
+
+.hero-content h1 {
+    font-size: 52px;
+    color: #0F172A;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 19px;
+    color: #475569;
+    margin-bottom: 35px;
+}
+
+
+/* =================================
+   HERO BUTTONS
+================================= */
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.btn {
+    display: inline-block;
+    padding: 13px 28px;
+    border-radius: 8px;
+    background-color: #E11D48;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #BE123C;
+    transform: translateY(-2px);
+}
+
+.emergency-btn {
+    background-color: #DC2626;
+}
+
+.emergency-btn:hover {
+    background-color: #B91C1C;
+}
+
+
+/* =================================
+   FEATURES
+================================= */
+
+.features {
+    padding: 70px 8%;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 34px;
+    color: #0F172A;
+    margin-bottom: 40px;
+}
+
+.feature-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.feature-card {
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 12px;
+    border: 1px solid #E2E8F0;
+    box-shadow: 0 5px 20px rgba(15, 23, 42, 0.07);
+    transition: 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(15, 23, 42, 0.12);
+}
+
+.feature-card h3 {
+    color: #E11D48;
+    margin-bottom: 12px;
+    font-size: 21px;
+}
+
+.feature-card p {
+    color: #64748B;
+    margin-bottom: 18px;
+}
+
+.feature-card a {
+    color: #E11D48;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.feature-card a:hover {
+    text-decoration: underline;
+}
+
+
+/* =================================
+   COMMON PAGE SECTION
+================================= */
+
+.page-section {
+    min-height: 80vh;
+    padding: 70px 8%;
+    text-align: center;
+}
+
+.page-section h1 {
+    font-size: 42px;
+    color: #0F172A;
+    margin-bottom: 15px;
+}
+
+.page-section > p {
+    color: #64748B;
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+
+
+/* =================================
+   FORM ELEMENTS
+================================= */
+
+.form-group {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #334155;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 13px 15px;
+    border: 1px solid #CBD5E1;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    font-family: inherit;
+    background-color: #FFFFFF;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #E11D48;
+    box-shadow: 0 0 0 3px rgba(225, 29, 72, 0.10);
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+
+/* =================================
+   FOOTER
+================================= */
+
+footer {
+    background-color: #0F172A;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+
+/* =================================
+   RESPONSIVE DESIGN
+================================= */
+
+@media (max-width: 900px) {
+
+    .navbar {
+        padding: 15px 20px;
+    }
+
+    .feature-container {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-content h1 {
+        font-size: 42px;
+    }
+}
+
+
+@media (max-width: 700px) {
+
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .nav-links a {
+        font-size: 14px;
+    }
+
+    .hero {
+        padding: 55px 5%;
+    }
+
+    .hero-content h1 {
+        font-size: 35px;
+    }
+
+    .hero-content p {
+        font-size: 17px;
+    }
+
+    .features h2 {
+        font-size: 28px;
+    }
+
+    .page-section h1 {
+        font-size: 34px;
+    }
+}
+```

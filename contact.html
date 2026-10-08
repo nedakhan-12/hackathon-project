@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>HerShield | Trusted Contact</title>
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Contact Page CSS -->
+    <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+
+    <!-- ================================
+         NAVBAR
+    ================================= -->
+
+    <nav class="navbar">
+
+        <div class="nav-logo">
+            <a href="index.html">HerShield</a>
+        </div>
+
+        <ul class="nav-links">
+
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+
+            <li>
+                <a href="contact.html">Trusted Contact</a>
+            </li>
+
+            <li>
+                <a href="safty.html">Safety Plan</a>
+            </li>
+
+            <li>
+                <a href="emergency.html">Emergency SOS</a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+
+    <!-- ================================
+         TRUSTED CONTACT SECTION
+    ================================= -->
+
+    <main>
+
+        <section class="page-section">
+
+            <h1>Trusted Contact</h1>
+
+            <p>
+                Add a trusted person who can be contacted
+                during an emergency.
+            </p>
+
+
+            <div class="contact-card">
+
+                <form id="contactForm">
+
+                    <!-- Contact Name -->
+
+                    <div class="form-group">
+
+                        <label for="contactName">
+                            Contact Name
+                        </label>
+
+                        <input
+                            type="text"
+                            id="contactName"
+                            name="contactName"
+                            placeholder="Enter contact name"
+                            required
+                        >
+
+                    </div>
+
+
+                    <!-- Phone Number -->
+
+                    <div class="form-group">
+
+                        <label for="contactPhone">
+                            Phone Number
+                        </label>
+
+                        <input
+                            type="tel"
+                            id="contactPhone"
+                            name="contactPhone"
+                            placeholder="Enter phone number"
+                            required
+                        >
+
+                    </div>
+
+
+                    <!-- Relationship -->
+
+                    <div class="form-group">
+
+                        <label for="relationship">
+                            Relationship
+                        </label>
+
+                        <input
+                            type="text"
+                            id="relationship"
+                            name="relationship"
+                            placeholder="e.g. Mother, Sister, Friend"
+                        >
+
+                    </div>
+
+
+                    <!-- Save Button -->
+
+                    <button type="submit">
+                        Save Trusted Contact
+                    </button>
+
+                </form>
+
+
+                <!-- Success / Error Message -->
+
+                <div id="contactMessage"></div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================================
+         FOOTER
+    ================================= -->
+
+    <footer>
+
+        <p>
+            &copy; 2026 HerShield. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+
+    <script src="contact.js"></script>
+
+</body>
+
+</html>
+
+
+
